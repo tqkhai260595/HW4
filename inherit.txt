@@ -1,0 +1,7 @@
+Two uses of inheritance in a program:
+
+1. Code Reusability:
+   Inheritance enables the reuse of code by allowing child classes to inherit attributes and methods from parent classes. This reduces redundancy in the codebase and promotes a more efficient and maintainable software development process.
+
+2. Modularization and Extensibility:
+   Inheritance facilitates the creation of modular and extensible software components. Developers can define core classes with common functionality and then create specialized child classes to build upon and customize those features. This promotes scalability and flexibility in software design.

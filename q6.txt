@@ -1,0 +1,8 @@
+Does the change inside increment_int_a change the variable after the function call?
+The change inside increment_int_a does not change the variable after the function call. This is because integers in Python are immutable. When you pass an integer to a function, you are passing a copy of the integer's value, not a reference to the original variable. Any changes to the parameter removal inside the process do not affect the original variable a.
+
+Does the change inside increment_int_b change the variable b after the function call?
+Yes, the change inside increment_int_b can change the variable b after the function call. This is because b is a dictionary in Python, and dictionaries are mutable objects. When you pass a dictionary to a function, you are passing a reference to the original dictionary. Any changes made to the dictionary through this reference will affect the original variable b. However, there is a minor issue in the increment_int_b function: the key '32' should exist in the dictionary before incrementing its value. If it doesn't live, it will raise a KeyError.
+
+If they differ, answer why? If not, why not?
+They differ because integers (as in the case of a) are immutable objects in Python. When you pass an integer to a function, you are working with a copy of its value, and any modifications made to that copy inside the process do not affect the original variable. On the other hand, dictionaries (as in the case of b) are mutable objects. When you pass a dictionary to a function, you work with a reference to the original dictionary. Modifications made to the dictionary through this reference will affect the original variable.
